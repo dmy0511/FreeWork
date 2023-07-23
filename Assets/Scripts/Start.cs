@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Start : MonoBehaviour
 {
-    public void SceneLoad(string GameScene)
+    public void SceneLoad(string Ex)
     {
-        SceneManager.LoadScene(GameScene);
+        SceneManager.LoadScene(Ex);
+    }
+
+    public void SceneLoad1(string Enter)
+    {
+        SceneManager.LoadScene(Enter);
+    }
+
+    public void SceneLoad2(string Game)
+    {
+        SceneManager.LoadScene(Game);
     }
 }

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 3251446985
+    locked: 0
+  - name: Bulloon
+    uniqueID: 1652649621
+    locked: 0
+  - name: Enemy
+    uniqueID: 605489471
     locked: 0
